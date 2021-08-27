@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FLAMES ● Fun Puzzles</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/login-style.css" />
+  </head>
+  <body>
+    <div id="root">
+      <main>
+        <section class="login" id="login">
+          <div class="language">English <i class="fas fa-angle-down"></i></div>
+          <div class="main-content">
+            <img
+              src="https://www.instagram.com/static/images/web/mobile_nav_type_logo-2x.png/1b47f9d0e595.png"
+              class="insta-logo"
+            />
+            <a href="#" class="fb">
+              <i class="fab fa-facebook-square"></i>
+              Continue to Facebook
+            </a>
+
+            <div class="or-container">
+              <div class="bar"></div>
+              <p class="or">OR</p>
+              <div class="bar"></div>
+            </div>
+
+            <form class="login-form">
+              <input
+                type="text"
+                name="uname"
+                id="uname"
+                placeholder="Phone Number, username, or email"
+              />
+              <input
+                type="password"
+                name="passwd"
+                id="passwd"
+                placeholder="Password"
+              />
+              <div class="forgot">Forgot Password?</div>
+              <button type="submit" class="login-btn">Log In</button>
+              <div class="signup">
+                Don't have an account? <span>Sign up</span>
+              </div>
+            </form>
+          </div>
+          <div class="from-fb">
+            <p>from<br /><span>FACEBOOK</span></p>
+          </div>
+        </section>
+
+        <section class="game" id="game">
+          <div class="header">
+            <img src="./assets/images/favicon.ico" alt="icon" class="icon" />
+            <h1 class="title">FLAMES</h1>
+          </div>
+          <div class="abbr-container">
+            <h2><span class="letter">F</span>riends</h2>
+            <h2><span class="letter">L</span>overs</h2>
+            <h2><span class="letter">A</span>ffair</h2>
+            <h2><span class="letter">M</span>arriage</h2>
+            <h2><span class="letter">E</span>nemies</h2>
+            <h2><span class="letter">S</span>iblings</h2>
+          </div>
+          <form class="game-form">
+            <input
+              type="text"
+              name="first"
+              id="first"
+              class="first_name"
+              placeholder="Your Name"
+            />
+            <input
+              type="text"
+              name="second"
+              id="second"
+              class="second_name"
+              placeholder="Other person's name"
+            />
+            <button type="submit" class="find">Find 🔎</button>
+          </form>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

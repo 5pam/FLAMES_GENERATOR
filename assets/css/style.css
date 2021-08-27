@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;1,700&family=Dancing+Script:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.icon {
+  max-width: 64px;
+  margin-right: 1em;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+}
+
+.title {
+  font-family: "Dancing Script";
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: white;
+  filter: drop-shadow(0 0 3px);
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.game {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(101, 115, 255),
+    rgb(111, 114, 247),
+    rgb(120, 114, 239),
+    rgb(130, 113, 231),
+    rgb(139, 112, 223),
+    rgb(149, 111, 215),
+    rgb(158, 111, 208),
+    rgb(168, 110, 200),
+    rgb(177, 109, 192),
+    rgb(187, 108, 184),
+    rgb(196, 108, 176),
+    rgb(206, 107, 168)
+  );
+  background-repeat: no-repeat;
+}
+
+.abbr-container {
+  margin: 0 auto;
+  color: white;
+  margin: 2em 0;
+  font-family: "Balsamiq sans", sans-serif;
+}
+
+.letter {
+  font-family: "Dancing Script";
+  font-size: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: blue; */
+  width: 90%;
+}
+
+.game-form input {
+  width: 80%;
+  padding: 0.5em;
+  margin-bottom: 2em;
+  background: none;
+  border: 0;
+  border-bottom: 2px solid rgba(216, 216, 216, 0.5);
+  color: white;
+  outline: none;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: "balsamiq sans", sans-serif;
+}
+
+button.find {
+  padding: 0.5em 1em;
+  font-size: 1.05rem;
+  font-family: "balsamiq sans";
+  font-weight: 600;
+  letter-spacing: 1px;
+  background-color: rgb(29, 170, 226);
+  border: 0;
+  outline: none;
+  color: white;
+  border-radius: 1000px;
+  cursor: pointer;
+}
+
+button.find:focus,
+button.find:hover {
+  background-color: rgb(28, 140, 184);
+}
